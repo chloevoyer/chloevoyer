@@ -47,14 +47,14 @@ jobs:
     # Commit all changed files to the repository
     - name: Commit to the repo
       run: |
-        git config --global user.name "jmrplens/jmrplens"
-        git config --global user.email "github-stats[bot]@jmrplens.github.io"
+        git config --global user.name "chloevoyer/chloevoyer"
+        git config --global user.email "github-stats[bot]@chloevoyer.github.io"
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update generated files' || true
         git push
       
-                            # <-- must use actions/checkout before mirroring!
+    # <-- must use actions/checkout before mirroring!
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0

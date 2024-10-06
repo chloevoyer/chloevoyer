@@ -14,23 +14,13 @@
 </a>
 </p>
 <p align="center">
-    <a href="https://www.linkedin.com/in/jmrplens/">
+    <a href="https://www.linkedin.com/in/chloevoyer/">
         <img src="icons/linkedin.svg" alt="LinkedIn" height="40" />
     </a>
-    <a href="mailto:jmrplens@gmail.com">
+    <a href="mailto:chloe.voyer@mail.mcgill.ca">
         <img src="icons/mailicon.svg" alt="E-Mail" height="40" />
-    </a>
-   <!-- <a href="https://twitter.com/jmrplens">
-        <img src="icons/twitter.svg" alt="Twitter" height="40" />
-    </a> -->
-    <a rel="me" href="https://mstdn.jmrp.io/@jmrplens" title="Mastodon">
-        <img src="icons/mastodon.svg" alt="Mastodon" height="40" />
-    </a>
-    <a rel="me" href="https://pixel.jmrp.io/jmrplens" title="Pixelfed">
-        <img src="icons/pixelfedr.svg" alt="Pixelfed" height="40" />
-    </a>
     <br><br>
-    <a rel="me" href="https://liberapay.com/jmrplens/donate" title="liberapay">
+    <a rel="me" href="https://liberapay.com/chloevoyer/donate" title="liberapay">
         <img src="https://liberapay.com/assets/widgets/donate.svg" alt="liberapay" height="25" />
     </a>
     <a rel="me" href="https://ko-fi.com/X8X147IR3" title="ko-fi">
