@@ -1,5 +1,6 @@
 
-<h1 align="center"> Hi <img width="30px" src="assets\hi.gif">, I'm <a href="https://chloevoyer.com">Chloe Voyer</h1>
+<h1 align="center"> Hi <img width="30px" src="assets\hi.gif">  
+I'm <a href="https://chloevoyer.com">Chloe Voyer</h1>
 
 <p align="center">
     <picture>
