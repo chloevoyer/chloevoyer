@@ -1,0 +1,38 @@
+name: Push File
+on:
+  push:
+    paths:
+      - 'generated/*.svg'
+  workflow_dispatch: 
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source repo
+      uses: actions/checkout@v4
+
+    - name: Copy overview file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: 'generated/overview.svg'
+        destination_repo: 'chloevoyer/chloevoyer.github.io'
+        destination_folder: 'assets/img'
+        user_email: 'chloe.voyer@mail.mcgill.ca'
+        user_name: 'chloevoyer'
+        destination_branch: 'master'
+        commit_message: 'Update GitHub User Cards - Overview'
+
+    - name: Copy languages file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: 'generated/languages.svg'
+        destination_repo: 'chloevoyer/chloevoyer.github.io'
+        destination_folder: 'assets/img'
+        user_email: 'chloe.voyer@mail.mcgill.ca'
+        user_name: 'chloevoyer'
+        destination_branch: 'master'
+        commit_message: 'Update GitHub User Cards - Languages'
