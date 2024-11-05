@@ -18,7 +18,7 @@ jobs:
       with:
         source_file: 'generated/overview.svg'
         destination_repo: 'chloevoyer/chloevoyer.github.io'
-        destination_folder: 'assets/img'
+        destination_folder: 'assets/img/generated'
         user_email: 'chloe.voyer@mail.mcgill.ca'
         user_name: 'chloevoyer'
         destination_branch: 'master'
